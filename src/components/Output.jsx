@@ -30,7 +30,7 @@ const Output = ({editorRef, language }) => {
         borderRadius={4}
         borderColor={'#333'}
       >
-        {output?output:"Nothing here"}
+        {output?output:"Execute the Code"}
       </Box>
     </Box>
   );
